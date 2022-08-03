@@ -20,7 +20,7 @@ type AddItemButtonProps = {
 };
 
 export const AddItemButton = styled.button<AddItemButtonProps>`
-  background-color: #fffff3d;
+  background-color: #ffff3d;
   border-radius: 3px;
   border: none;
   color: ${(props) => (props.dark ? '#000' : '#fff')};
@@ -31,7 +31,7 @@ export const AddItemButton = styled.button<AddItemButtonProps>`
   transition: backround 85ms ease-in;
   width: 100%;
   &:hover {
-    background-color: #fffff52;
+    background-color: #ffff52;
   }
 `;
 
