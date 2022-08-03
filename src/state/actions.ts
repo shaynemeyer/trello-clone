@@ -61,7 +61,7 @@ export const setDraggedItem = (draggedItem: DragItem | null): Action => ({
 
 export const moveTask = (
   draggedItemId: string,
-  hoveredItemId: string,
+  hoveredItemId: string | null,
   sourceColumnId: string,
   targetColumnId: string
 ): Action => ({

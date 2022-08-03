@@ -76,6 +76,7 @@ export const appStateReducer = (
 
       // Add the task to the target list
       draft.lists[targetListIndex].tasks.splice(hoverIndex, 0, item);
+
       break;
     }
   }
